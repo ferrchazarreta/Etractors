@@ -33,10 +33,9 @@
 
 body{
     font-family: var(--fuenteParrafo);
-    font-size: 25px;
     line-height: 2;
+    background-color: var(--fondoBlanco1);
 }
-
 
 h1, h2, h3, h4 {
     font-family: var(--fuenteTitulo);
@@ -53,6 +52,22 @@ h3{
 }
 h4{
     font-size: 18px;
+}
+
+#buscador{
+    background-image: url(svg/zoom.svg);
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-color: #F3F4F6FF;
+}
+
+.texto-hover{
+    color: #565D6DFF;
+}
+
+.texto-hover:hover{
+    color: var(--primario3);
 }
 
 /*Globales*/
