@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root{
+    --fuenteTitulo: 'Open Sans', sans-serif;
+    --fuenteParrafo: 'Inter', sans-serif;
+
+    /*Colores Primarios*/
+    --primario1: #8CC152FF;
+    --primario2: #6FA336FF;
+    --primario3: #2A6200FF;
+
+    /*Colores Fondos*/
+    --fondoBlanco: #ffffff;
+    --fondoBlanco1: #FCFCFCFF;    
+    --fondoGris: #CCCCCCFF;
+
+    /*Colores Accion*/
+    --accion1: #8CC152FF;
+    --accion2: #F8F9FAFF;
+    
+    /*Colores Blanco-Negro*/
+    --blanco: #ffffff;
+    --negro: #171A1FFF;
+
+    /*Colores Positivo-Negativo*/
+    --positivo: #8CC152FF;
+    --negativo: #FF0000FF;
+
+    /*Colores Texto*/
+    --texto: #171A1FFF;
+}
+
+body{
+    font-family: var(--fuenteParrafo);
+    font-size: 25px;
+    line-height: 2;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: var(--fuenteTitulo);
+    line-height: 1.2;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+h4{
+    font-size: 18px;
+}
+
+/*Globales*/
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.no-padding{
+    padding: 0;
+}
