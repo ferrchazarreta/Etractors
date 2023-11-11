@@ -55,7 +55,7 @@ h4{
 }
 
 #buscador{
-    background-image: url(svg/zoom.svg);
+    background-image: url(../svg/zoom.svg);
     background-position: 10px center;
     background-repeat: no-repeat;
     padding-left: 40px;
