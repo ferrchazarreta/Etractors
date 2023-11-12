@@ -86,3 +86,29 @@ img{
 .no-padding{
     padding: 0;
 }
+
+footer{
+    background-color: var(--negro);
+}
+
+footer, a{
+    color: var(--blanco);
+}
+
+footer, svg{
+    fill: var(--blanco);
+}
+
+.btn-outline-primary{
+    color: var(--primario1);
+    border-color: var(--primario1);
+}
+.btn-outline-primary:hover{
+    color: var(--blanco);
+    background-color:var(--primario1) ;
+    border-color: var(--primario1);
+}
+
+.titulo-footer{
+    color: var(--primario1);
+}
