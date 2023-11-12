@@ -94,7 +94,6 @@
 .card:hover{
     border-color: var(--accion1);
 }
-
 #recomendados{
     font-family: Open Sans;
     font-size: 32px; 
