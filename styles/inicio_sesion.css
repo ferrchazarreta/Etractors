@@ -82,3 +82,9 @@
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+@media (max-width: 900px) {
+  .imagen_login_registro{
+    display: none;
+  }
+}
