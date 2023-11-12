@@ -31,7 +31,7 @@
     --texto: #171A1FFF;
 }
 
-#oferta-titulo{
+#oferta{
     font-family: Open Sans;
     font-size: 40px; 
     font-weight: 600; 
@@ -49,7 +49,9 @@
 
 #boton{
     border-color: var(--accion1);
-    color: var(--accion1);
+    color: var(--blanco);
+    background-color: var(--accion1);
+    width: 25%;
 }
 
 #boton:hover {
@@ -62,6 +64,29 @@
     background: #00000000; /* transparent */
 }
 
+#producto-imagen{
+    height: 100%;
+    width: 100%;
+    object-fit: none;
+    object-position: 50% 90%;
+}
+
+#producto{
+    background-size: cover;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#producto-nombre{
+    font-weight: 600;
+}
+
+#producto-desc{
+    font-weight: 400;
+    color: #424856FF;
+    line-height: 28px; 
+}
+
 .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -69,3 +94,14 @@
 .card:hover{
     border-color: var(--accion1);
 }
+.text {
+    position: absolute; 
+    top: 223px; 
+    left: 904px; 
+    width: 405px; 
+    font-family: Inter; /* Body */
+    font-size: 18px; 
+    font-weight: 400; 
+    line-height: 28px; 
+    color: #424856FF; /* neutral-650 */
+  }
