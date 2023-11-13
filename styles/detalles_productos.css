@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root{
+    --fuenteTitulo: 'Open Sans', sans-serif;
+    --fuenteParrafo: 'Inter', sans-serif;
+
+    /*Colores Primarios*/
+    --primario1: #8CC152FF;
+    --primario2: #6FA336FF;
+    --primario3: #2A6200FF;
+
+    /*Colores Fondos*/
+    --fondoBlanco: #ffffff;
+    --fondoBlanco1: #FCFCFCFF;    
+    --fondoGris: #CCCCCCFF;
+
+    /*Colores Accion*/
+    --accion1: #8CC152FF;
+    --accion2: #F8F9FAFF;
+    
+    /*Colores Blanco-Negro*/
+    --blanco: #ffffff;
+    --negro: #171A1FFF;
+
+    /*Colores Positivo-Negativo*/
+    --positivo: #8CC152FF;
+    --negativo: #FF0000FF;
+
+    /*Colores Texto*/
+    --texto: #171A1FFF;
+}
+
+#oferta{
+    font-family: Open Sans;
+    font-size: 40px; 
+    font-weight: 600; 
+    line-height: 56px; 
+    color: var(--primario1)
+}
+
+#oferta-desc{
+    font-family: Inter;
+    font-size: 16px; 
+    font-weight: 400; 
+    line-height: 26px;
+    color: #9095A1FF;
+}
+
+#boton{
+    border-color: var(--accion1);
+    color: var(--blanco);
+    background-color: var(--accion1);
+    width: 30%;
+}
+
+#boton:hover {
+    color: #6E9F39FF; /* primary-600 */
+    background: #00000000; /* transparent */
+}
+
+#boton:active {
+    color: #5F8931FF; /* primary-650 */
+    background: #00000000; /* transparent */
+}
+
+#producto-imagen{
+    height: 100%;
+    width: 100%;
+    object-fit: none;
+    object-position: 50% 90%;
+}
+
+#producto{
+    background-size: cover;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#producto-nombre{
+    font-weight: 600;
+}
+
+#producto-desc{
+    font-weight: 400;
+    color: #424856FF;
+    line-height: 28px; 
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover{
+    border-color: var(--accion1);
+}
+#recomendados{
+    font-family: Open Sans;
+    font-size: 32px; 
+    font-weight: 600; 
+    line-height: 48px; 
+    color: var(--texto);
+}
