@@ -60,3 +60,31 @@
         font-size: 16px;
     }
 }
+
+.logo{
+    width: 152px; 
+    height: 48px;
+}
+
+@media (471px <= width){
+
+    .mobile{
+        display: none;
+    }
+
+}
+
+@media (width <= 991px){
+    .mobile{
+        display: block;
+    }
+    .mobile, .dropdown-menu{
+        max-width: 10rem;
+    }
+    .desktop{
+        display: none;
+    }
+    .carrito{
+        display: none;
+    }
+}
