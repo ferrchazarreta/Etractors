@@ -1,12 +1,6 @@
 @import url('styles.css');
 
-.seccion-productos{
-    margin: 100px;
-}
 
-.contenedor-titulo{
-    margin-left: 50px;
-}
 
 .contenedor-tarjetas{
     margin: 80px 0 80px 0;
@@ -16,8 +10,12 @@
 
 .card-text{
     margin-bottom: 40px;
+    color: var(--fondoGris);
 }
 
+.sub-titulo{
+    color: var(--fondoGris);
+}
 @media (471px <= width <= 768px){
     .titulo, .sub-titulo{
         text-align: center;
