@@ -1,0 +1,40 @@
+@import url(styles.css);
+
+/* Hide the browser's default checkbox */
+.container input {
+    background-color: var(--primario1-opacity);
+    color: var(--primario1);
+    border-radius: 0%;
+    border: none;
+}
+
+.container input::placeholder {
+    color: var(--primario1);
+}
+
+.container input:hover {
+    background-color: var(--primario1-opacity);
+    color: var(--primario1);
+}
+
+.container select {
+    background-color: var(--primario1-opacity);
+    color: var(--primario1);
+    border-radius: 0%;
+    border: none;
+}
+
+.card {
+    background-color: var(--fondoGrisClaro);
+    border: none;
+}
+
+.total {
+    color: var(--primario1);
+}
+
+.btn-outline-primary{
+    --bs-btn-active-color: var(--blanco);
+    --bs-btn-active-bg: var(--primario1);
+    --bs-btn-active-border-color: var(--primario1)
+}
