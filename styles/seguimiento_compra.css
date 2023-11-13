@@ -1,0 +1,22 @@
+.tabla-sin-borde tr,
+.tabla-sin-borde td,
+.tabla-sin-borde th {
+  border: none !important;
+}
+.datos{
+  font-weight: lighter;
+}
+.tabla-seguimiento-compra{
+  max-width: 30%;
+}
+
+@media (width <= 900px){
+  .tabla-seguimiento-compra{
+    max-width: 60%;
+  }
+}
+@media (width <= 500px){
+  .tabla-seguimiento-compra{
+    max-width: 100%;
+  }
+}
