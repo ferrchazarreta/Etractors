@@ -30,6 +30,10 @@
     /*Colores Texto*/
     --texto: #171A1FFF;
 }
+#oferta{
+    background-color: var(--blanco);
+    border-radius: 4px;
+}
 
 #oferta-titulo{
     font-family: Open Sans;
