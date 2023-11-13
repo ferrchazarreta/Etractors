@@ -47,22 +47,6 @@
     color: #9095A1FF;
 }
 
-#boton{
-    border-color: var(--accion1);
-    color: var(--blanco);
-    background-color: var(--accion1);
-    width: 30%;
-}
-
-#boton:hover {
-    color: #6E9F39FF; /* primary-600 */
-    background: #00000000; /* transparent */
-}
-
-#boton:active {
-    color: #5F8931FF; /* primary-650 */
-    background: #00000000; /* transparent */
-}
 
 #producto-imagen{
     height: 100%;
