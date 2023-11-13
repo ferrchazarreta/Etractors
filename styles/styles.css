@@ -63,16 +63,18 @@ h4{
     background-color: #F3F4F6FF;
 }
 
+/*Globales*/
+a{
+    text-decoration: none;
+}
+
 .texto-hover{
     color: #565D6DFF;
 }
 
 .texto-hover:hover{
-    color: #565D6DFF;
-}
-/*Globales*/
-a{
-    text-decoration: none;
+    color: var(--primario3);
+    font-weight: bold;
 }
 
 img{
