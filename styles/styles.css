@@ -7,12 +7,14 @@
 
     /*Colores Primarios*/
     --primario1: #8CC152FF;
+    --primario1-opacity: rgba(139, 193, 82, 0.068);
     --primario2: #6FA336FF;
     --primario3: #2A6200FF;
 
     /*Colores Fondos*/
     --fondoBlanco: #ffffff;
-    --fondoBlanco1: #FCFCFCFF;    
+    --fondoBlanco1: #FCFCFCFF;
+    --fondoGrisClaro: #F3F4F6FF;    
     --fondoGris: #CCCCCCFF;
 
     /*Colores Accion*/
