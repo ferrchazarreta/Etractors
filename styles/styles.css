@@ -105,6 +105,9 @@ footer, svg{
 .btn-outline-primary{
     color: var(--primario1);
     border-color: var(--primario1);
+    --bs-btn-active-color: var(--blanco);
+    --bs-btn-active-bg: var(--primario1);
+    --bs-btn-active-border-color: var(--primario1)
 }
 .btn-outline-primary:hover{
     color: var(--blanco);
@@ -112,8 +115,39 @@ footer, svg{
     border-color: var(--primario1);
 }
 
-
 .titulo-footer{
     color: var(--primario1);
 }
 
+.logo{
+    width: 152px; 
+    height: 48px;
+}
+
+@media (471px <= width){
+
+    .mobile{
+        display: none;
+    }
+
+}
+
+@media (width <= 991px){
+    .mobile{
+        display: block;
+    }
+    .mobile, .dropdown-menu{
+        max-width: 10rem;
+    }
+    .desktop{
+        display: none;
+    }
+    .carrito{
+        display: none;
+    }
+}
+
+.principal{
+    color: var(--primario1);
+    font-weight: bold;
+}

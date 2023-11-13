@@ -32,9 +32,3 @@
 .total {
     color: var(--primario1);
 }
-
-.btn-outline-primary{
-    --bs-btn-active-color: var(--blanco);
-    --bs-btn-active-bg: var(--primario1);
-    --bs-btn-active-border-color: var(--primario1)
-}

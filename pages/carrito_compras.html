@@ -11,39 +11,76 @@
     <title>Carro de Compras | E-Tractors</title>
 </head>
 <body>
-    <header class="mb-3 border-bottom">
-        <div class="container-fluid">
-          <div class="d-flex flex-wrap align-items-center justify-content-st justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
-              <img src="../images/logo.png">
-            </a>
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="#" class="texto-hover nav-link px-2 ">Pagina Principal</a></li>
-              <li><a href="#" class="texto-hover nav-link px-2 ">Productos</a></li>
-              <li><a href="#" class="texto-hover nav-link px-2 ">Sobre Nosotros</a></li>
-              <li><a href="#" class="texto-hover nav-link px-2 ">Servicios</a></li>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a href="/" class="justify-content-center">
+            <img class="logo" src="../svg/logo.svg">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mb-2 mb-lg-0 px-3">
+                <li><a href="../index.html" class="texto-hover nav-link px-3">Pagina
+                        Principal</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Maquinaria</a></li>
+                        <li><a class="dropdown-item" href="productos.html">Repuestos y herramientas</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="texto-hover nav-link px-3 ">Sobre Nosotros</a></li>
+                <li><a href="#" class="texto-hover nav-link px-3 ">Servicios</a></li>
+                <li>
+                    <div class="dropdown mobile">
+                        <a href="#" class="d-inline-flex mt-3 link-body-emphasis text-decoration-none"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32"
+                                class="rounded-circle m-1">
+                            <p class="m-1 text-decoration-none">Pedro Perez</p>
+                            <div class="dropdown-toggle"></div>
+                        </a>
+                        <ul class="dropdown-menu text-small">
+                            <li><a class="dropdown-item" href="#">Configuracion</a></li>
+                            <li><a class="dropdown-item" href="#">Perfil</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-              <input id='buscador' type="search" class="buscador form-control" placeholder="Buscar..." aria-label="Search">
-            </form>
-              <a class="me-4" href="/"> <img src="../images/carrito.png"> </a>
-            <div class="dropdown text-end">
-              <a href="#" class="d-inline-flex mt-3 link-body-emphasis text-decoration-none" data-bs-toggle="dropdown" aria-expanded="false">
+
+        </div>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input id='buscador' type="search" class="buscador form-control" placeholder="Buscar..."
+                aria-label="Search">
+        </form>
+        <a class="me-4 carrito" href="carrito_compras.html"> <img src="../images/carrito.png"></a>
+        <div class="dropdown text-end desktop">
+            <a href="#" class="d-inline-flex mt-3 link-body-emphasis text-decoration-none" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle m-1">
                 <p class="m-1 text-decoration-none">Pedro Perez</p>
                 <div class="dropdown-toggle"></div>
-              </a>
-              <ul class="dropdown-menu text-small">
-                <li><a class="dropdown-item" href="#">New project...</a></li>
-                <li><a class="dropdown-item" href="#">Settings</a></li>
-                <li><a class="dropdown-item" href="#">Profile</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Sign out</a></li>
-              </ul>
-            </div>
-          </div>
+            </a>
+            <ul class="dropdown-menu text-small">
+                <li><a class="dropdown-item" href="#">Configuracion</a></li>
+                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
+            </ul>
         </div>
-      </header>
+    </div>
+</nav>
       <section class="seccion-carrito">
         <div class="contenedor-titulo">
             <h1>Carrito de compra</h1>
@@ -84,7 +121,7 @@
                         <td></td>
                         <td><h2><strong>Total</strong></h2></td>
                         <td>$17.000</td>
-                        <td><button type="button" class="btn btn-outline-primary">Pagar</button></td>
+                        <td><a href="detalles_compras.html"><button id="boton" type="button" class="btn btn-outline-primary mt-5">Comprar</button></a></td>
                     </tr>
                     </tbody>
                 </table>
